@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Water+Brush&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgba(248, 14, 84, 0.993) ;
+    color: rgb(250, 235, 235);
+    width: 434px;
+    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Water Brush',     ;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: rgb(33, 18, 248); */
+    width: 90vw;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.info-container{
+    /* background-color: rgb(255, 16, 108); */
+    width: 80vw;
+    height: 58vh; 
+    /* margin-right: 2.5; */
+    /* margin-top: 1.1em;   */
+    /* margin-bottom: 9.8em; */
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}    
+
+.devInfo {
+display: flex;
+/* align-items: center; */
+justify-content: center;
+flex-direction: column;
+margin-top: 2px;
+}
+
+.devPic img{
+    height: 58vh;
+    margin-top: 2cm;
+}
+
+.hello{
+ font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+ font-size: 40px;
+ margin-top: 2px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22 px;
+    color: rgba(248, 14, 84, 0.993);
+    background-color: rgba(253, 232, 233, 0.884);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    /* margin-top: 12px; */
+    cursor: pointer;
+}
+
+.btn-sn{
+    margin: 12px 0;
+    padding: 10px 19px;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color:rgba(248, 14, 84, 0.993) ;
+    color: rgb(246, 244, 248);
+}
+
+.contactform {
+    padding: 0 34px;
+    padding: 144px;
+}
+
+.contactform h1{
+    text-align: center;
+
+}
+
+.contactform div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{ 
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px ;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(255, 0, 43);
+    margin: 0.5px;
+    padding: 3px 0, 0, 0,;
+}
+
+.form-check{
+    /* margin-left: auto;
+    margin-bottom: 2.6rem;
+    margin-top: 2.3rem; */
+    flex-direction: row;
+}
+
+#exampleCheck1{
+    width: 24px;
+    margin: 3px 0 ;
+}

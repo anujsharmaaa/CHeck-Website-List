@@ -1,0 +1,175 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+html{
+    font-size: 62.5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 8%;
+}
+
+nav  .menu-img{
+    width: 1.563rem; /* 25px */
+    margin-right: 1.25rem;  /* 20px */
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 10rem; /* 160px */
+    cursor: pointer;
+}
+
+
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 1.25rem;  /* 20px */
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    background: #efefef;
+    height: 1.875rem; /* 30px */
+    width: 3.75rem; /* 60px */
+    border-radius: 1.25rem; /* 20px */
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s; 
+}
+
+button span{
+    display: block;
+    background: #999;
+    height: 1.625rem;  /* 26px */
+    width: 1.625rem;  /* 26px */
+    border-radius: 50%;
+    margin-left: 0.125rem;   /* 2px */
+    transition: background 0.5s margin-left 0.5s;
+}
+
+.lamp-container{
+    position: absolute;
+    top: 0;
+    left: 22%;
+    width: 12.5rem;
+}
+
+.lamp{
+    width: 100%;
+}
+
+.light{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 43.75rem ;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+.text-container{
+    max-width: 37.5rem;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+
+.text-container h1{
+    font-size: 5rem;
+    font-weight: 25rem;
+}
+
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 0.875rem 2.5rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.125rem;
+    margin-top: 1.875rem;
+    border-radius: 1.875rem;
+
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 9.375rem;
+}
+
+.control .line{
+    width: 15.625rem;
+    height: 0.25rem;
+    background: #fff;
+    margin: 0 1.25rem;
+    border-radius: 0.125rem;
+
+}
+
+.control .line span{
+    width: 50%;
+    height: 0.5rem;
+    margin-top: -0.125rem;
+    border-radius: 0.25rem;
+    background: #10f0b4;
+    display: block;
+}
+
+.active{
+    background: rgba(255, 0, 170, 0.952);
+}
+
+.active span{
+    background: white;
+    margin-left: 1.938rem;
+}
+
+.on{
+    opacity: 1;
+}
+
+
+  /* header responsive code  */
+  @media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+
+    
+}
+
+@media(max-width:75px) {
+    html {
+        font-size: 45%;
+    }
+  }
