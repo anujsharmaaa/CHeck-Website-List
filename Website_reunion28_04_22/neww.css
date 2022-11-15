@@ -1,0 +1,427 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background:  */
+    /* url("img/christmas.jpg "); */
+    /* linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) */
+  /* background-size: cover; */
+  /* position: relative; */
+  /* background-attachment: fixed; */
+/* } */
+
+/* nav { */
+  /* width: 100%; */
+  /* height: 80rem; */
+  /* background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center; */
+  /* margin: 0rem 0rem 0rem 0rem; */
+  /* padding: 0rem 0rem 0rem 0rem; */
+  /* padding: 0rem 10rem;
+  position: center;
+  top: 0;
+  background: white;
+  z-index: 1;
+  border-bottom: 1rem solid rgba(0, 0, 0, 0.2); */
+
+/* }
+
+.logo{
+  font-family: sans-serif;
+  font-size: 2.5em;
+}
+
+.logo span{
+  color: brown;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+  padding: 10rem, 20rem;
+  font-size: 20rem;
+  padding: 10rem 20rem;
+  font-family: sans-serif;
+  
+}
+
+.menu a:first-child{
+  color: royalblue;
+}
+
+.menu a:hover{
+  color: darkorchid;
+  transition: 0.4s;
+}
+
+.icon i {
+  font-size: 20rem;
+}
+.icon i:hover{
+  color: olive;
+}
+.icon a{
+  text-decoration: none;
+  background: black;
+  color: aliceblue;
+  padding: 10rem,  20rem;
+  margin-left: 30rem ;
+  border-radius: 5rem;
+
+} */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* important 
+  1 rem = 16rem */
+  body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vw;
+    height: 90vh;
+    background: 
+    url("img/christmas.jpg");
+    /* background: url("img/christmas.jpg"); */
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
+  nav {
+    text-align: center;
+    padding-top: 5.0rem;
+    width: 50%;
+    margin: auto;
+    width: 100%;
+    height: 8.0rem;
+    background: white;
+    color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8.0rem;
+    position: fixed;
+    top: 0;
+    background: black;
+    z-index: 1;
+    border-bottom: 1rem solid rgba(187, 15, 158, 0.993);
+  }
+  .logo {
+    font-family: sans-serif;
+    font-size: 2.5em;
+  }
+  .logo span {
+    color: #f001b4;
+  }   
+  .menu a {
+    text-decoration: none;
+    color: #ff05c0;
+    font-size: 2.0rem;
+  
+    padding: 1.0rem 2.0rem;
+    font-family: sans-serif;
+  }
+  .menu a:first-child {
+    color: #ff0000;
+  }
+  .menu a:hover {
+    color: #ff0000;
+    transition: 0.4s;
+  }
+  .icon i {
+    font-size: 2.0rem;
+  }
+  .icon i:hover {
+    color: #ff05c0;
+  }
+  .icon a {
+    padding: 1.0rem 2.0rem;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    margin-left: 3.0rem;
+    border-radius: 5rem;
+  }
+  .icon a:hover {
+    background: transparent;
+    border: 1rem solid #ff0000;
+    color: #ff05c0;
+    transition: 0.4s ease;
+  }
+  .h-text{
+    color: rgb(248, 9, 168);
+    max-width: 700rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  #camera{
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
+  }
+  
+  #h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+  }
+  
+  .h-text input{
+    width: 60%;
+    padding: 2.0rem;
+    border: none;
+    outline: none;
+    font-size: 2.0rem;
+    border-radius: 8rem;
+  
+  }
+  
+  
+  .h-text button{
+    width: 30%;
+    padding: 2.0rem;
+    background: #ff0000;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8rem;
+    font-size: 2.0rem;
+    margin-top: 3.0rem;
+  }
+  
+  .filter-gallery{
+    padding: 100rem;
+  }
+  
+  .portfolio-menu{
+    text-align: center;
+    margin-bottom: 2.0rem;
+  }
+  
+  .portfolio-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 2.0rem 0rem;
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1.0rem  2.0rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+  }
+  
+  .portfolio-menu ul li:hover{
+  
+    color: whitesmoke;
+    background: #ff0000;
+    border-radius: .8rem;
+  }
+  
+  li.active{
+    color: whitesmoke;
+    background: #ff0000;
+    border-radius: .8rem;
+  }
+  
+  .portfolio-item{
+    width: 100%;
+  }
+  
+  .portfolio-item .item{
+    width: 360rem;
+    height: 360rem;
+    float: left;
+    margin-bottom: 2.0rem;
+    margin-left: 2.0rem;
+  }
+  
+  .portfolio-item .item  img{
+  width: 100%;
+  height: 100%;
+  border-radius: .8rem;
+  }
+  
+  .member{
+    width: 100%;
+    padding: 20rem 100rem;
+    font-family: sans-serif;
+  }
+  
+  .member-info{
+    text-align: center;
+    color: #5946CF ;
+  
+  }
+  
+  .member-info h1{
+  color:  #ff0000 ;
+  font-size: 2.5em;
+  }
+  
+  member-info h1 span{
+    color: #c23598;
+  }
+  /* #5946CF */
+  /* #120C32 */
+  
+  .member-card{
+    text-align: center;
+    padding-top: 50rem;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .member-card p{
+    margin: 20rem 0rem;
+    line-height: 2em;
+  }
+  
+  .member-card h2{
+    margin: 20rem 0rem;
+  }
+  
+  .m-images{
+    width: 100%;
+    display: flex;
+    margin: 20rem 0rem;
+    overflow: hidden;
+  }
+  
+  .m-images img{
+    width: 190rem;
+    height: 190rem;
+    cursor: pointer;
+    transition: 0.4 ease-in-out;
+  }
+  
+  .m-images img:hover{
+    transform: scale(1.5);
+  }
+  
+  footer{
+    width: 100%;
+    /* height: 100vh; */
+    background: rgb(0, 0, 0);
+    padding: 50rem 100rem;
+  
+  }
+  
+  .newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30rem;
+    border: 1rem solid #f704ae;
+    color: white;
+  }
+  
+  .newsletter >div{
+   flex-basis: 50%;
+  }
+  
+  .Subscribe{
+    text-align: right;
+  }
+  
+  .newsletter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+  }
+  
+  .newsletter p{
+    font-size: 20rem;
+    margin-top: 10rem;
+  }
+  
+  .newsletter label{
+    position: relative;
+  }
+  
+  .newsletter input{
+    padding: 20rem;
+    width: 70%;
+    border-radius: 8rem;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+  }
+  
+  .newsletter button{
+    position: absolute;
+    right: 0;
+    padding: 20rem;
+    width: 30%;
+    background: #ff0909;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0, 8rem, 8rem, 0;
+  }
+  .f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+    border-bottom: 1rem solid #ff0909;
+  
+  }
+  
+  .f-contact >div{
+    flex-basis: 20%;
+  }
+  
+  .f-contact p{
+    line-height: 2em;
+    font-size: 20rem;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .f-contact p:hover{
+    color: white;
+  }
+  
+  .f-contact i{
+    background: white;
+    color: black;
+    padding: 10rem;
+    font-size: 16rem;
+    margin: 20rem 5rem;
+    border-radius: 50%;
+    transition: 0.4s case;
+  
+  
+  }
+  
+  .f-contact i:hover{
+    background: transparent;
+    color: white;
+    border: 1rem solid white;  
+  }
